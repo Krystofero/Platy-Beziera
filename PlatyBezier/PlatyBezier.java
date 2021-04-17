@@ -17,8 +17,6 @@ public class PlatyBezier {
     String sciezka5 = "C:\\Users\\krzys\\IdeaProjects\\GiK C-K\\src\\PlatyBezier\\teapot1bezier.txt";
     String sciezka6 = "C:\\Users\\krzys\\IdeaProjects\\GiK C-K\\src\\PlatyBezier\\teaspoon1bezier.txt";
 
-    double Px , Py , Pz;
-
     PlatyBezier() throws IOException {
         Bezier(sciezka1, sciezka4);
         Bezier(sciezka2, sciezka5);
